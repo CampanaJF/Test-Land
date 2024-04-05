@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: item-api
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+  profiles:
+    active: dev
